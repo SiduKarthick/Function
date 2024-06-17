@@ -4,8 +4,8 @@ phases:
     commands:
       - ls
       - pwd
-      - zip -r function1.zip lambda_function1
-      - echo "Updating Lambda function: LambdaFunction1"
+      - zip -r function1.zip lambda_function
+      - echo "Updating Lambda function: LambdaFunction"
       - aws lambda update-function-code --function-name Function --zip-file fileb://function1.zip
 
       

@@ -7,5 +7,3 @@ phases:
       - zip -r function.zip lambda_function
       - echo "Updating Lambda function: LambdaFunction"
       - aws lambda update-function-code --function-name Function --zip-file fileb://function.zip
-
-      

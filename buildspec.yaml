@@ -7,8 +7,5 @@ phases:
       - zip -r function1.zip lambda_function1
       - echo "Updating Lambda function: LambdaFunction1"
       - aws lambda update-function-code --function-name Function --zip-file fileb://function1.zip
-      
-      - zip -r function2.zip lambda_function2
-      - echo "Updating Lambda function: LambdaFunction2"
-      - aws lambda update-function-code --function-name Userdetails --zip-file fileb://function2.zip
+
       
